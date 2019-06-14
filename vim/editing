@@ -1,0 +1,45 @@
+Name : D
+****************************************************************************************************
+BASIC COMMANDS
+****************************************************************************************************
+
+Insert
+---------
+i  : insert at current location
+I  : insert at START of current line
+
+Append
+---------
+a  : insert after cursor location ( append)
+A  : insert after END of current line
+
+Open New line
+-------------
+o  : insert line below current line (open)
+O  : insert line ABOVE current line
+
+Substitue
+---------
+s  : delete character under cursor and start inserting in its place (substitute text)
+S  : delete all text on line and start inserting in its place ( substitue line)
+
+Change
+------
+cw : delete to the end of word and start inserting in its place ( any movement command can be substituted for 'w') 
+cc : same as S (change line)
+C  : delete from the cursor to the end of line and start inserting at the cursor position
+
+Replace
+-------
+r  : replaces cursor position with given element
+     e.g. ra will replace cursor element with 'a'
+R  : It will switch the vim in replace mode
+
+Join
+----
+J  : joins lines
+
+****************************************************************************************************
+ADVANCE COMMANDS
+****************************************************************************************************
+
